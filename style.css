@@ -1,0 +1,72 @@
+
+.float{
+    width: 200px;
+       margin:10px;
+       padding:10px;
+       border-right: 1px solid red;
+}
+.body{
+    background-color:#F4F4F4;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #055874;
+}
+.style{
+    width: 1000px;
+    padding-bottom: 2px;
+    margin-bottom: 5%;
+    background-color: #030000;
+}
+.decoration{
+list-style: none;
+}
+.gsm{
+    display:inline-flex;
+}
+.email{
+    display:inline-flex;
+    margin-left: 20px;
+}
+/* Dairesel ilerleme çubuğu stil */
+.circle-progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.progress-ring {
+    width: 100%;
+    height: 100%;
+}
+
+.progress-ring-circle {
+    stroke: #055874;
+    stroke-width: 8;
+    fill: transparent;
+    r: 42;
+    cx: 50;
+    cy: 50;
+    stroke-dasharray: 265;
+    stroke-dashoffset: calc(265 - (265 * var(--progress)) / 100);
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.35s;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: (#333333);
+}
+.color{
+    color: #055874; /* Bağlantı rengi */
+    text-decoration: none; /* Alt çizgiyi kaldırma */   
+}
+.github{
+    display:inline-flex;
+}
