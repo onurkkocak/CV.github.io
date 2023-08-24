@@ -23,10 +23,11 @@ list-style: none;
 }
 .gsm{
     display:inline-flex;
+    margin-right: 30px;
 }
 .email{
     display:inline-flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 /* Dairesel ilerleme çubuğu stil */
 .circle-progress {
@@ -69,4 +70,16 @@ list-style: none;
 }
 .github{
     display:inline-flex;
+}
+.foto{
+    max-width: 300px;
+    max-height: 200px;
+ 
+}
+.sayfabası{
+    display: block;
+    text-align: left;
+}
+.büyük-ok {
+    font-size: 2em; 
 }
